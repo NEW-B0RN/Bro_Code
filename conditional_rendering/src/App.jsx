@@ -1,13 +1,18 @@
 
+
+
 import UserGreeting from "./UserGreeting"
 function App() {
 
 
   return (
     <>
-      <UserGreeting isLoggedIn={true} username="Manav Bhullar" />
+      <UserGreeting isLoggedIn={false} username={"John"} />
+
     </>
   )
 }
+
+
 
 export default App
