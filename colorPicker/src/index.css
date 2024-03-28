@@ -1,0 +1,41 @@
+body{
+  font-family: serif;
+}
+
+.color-picker-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+h1{
+  margin: 50px;
+  font-style: 3rem;
+
+}
+.color-display{
+  width: 200px;
+  height: 200px;
+  border-radius: 25px;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border: 5px;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+  display: flex;
+  transition: .5s  ease-in-out;
+}
+.color-display p {
+  color: hsl(0, 0%, 20%);
+  font-weight: bold;
+
+}
+
+imput[type="color"]{
+  width: 200px;
+  margin: 20px;
+  border-radius: 25px;
+  border:  5px solid hsl(0, 0%, 80%);
+}
